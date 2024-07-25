@@ -20,7 +20,7 @@ messages = [
     SystemMessagePromptTemplate.from_template(system_template),
     HumanMessagePromptTemplate.from_template("{question}"),
 ]
-
+   
 # Create a chat prompt template from the messages
 prompt = ChatPromptTemplate.from_messages(messages)
 
